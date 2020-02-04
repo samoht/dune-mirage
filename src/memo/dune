@@ -1,5 +1,6 @@
 (library
  (name memo)
+ (public_name dune-private.memo)
  (preprocess future_syntax)
  (libraries stdune dune_lang dag fiber)
  (synopsis "Function memoizer"))

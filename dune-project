@@ -114,3 +114,6 @@ execution of the action.
  (description "\
 dune-glob provides a parser and interpreter for globs as \
 understood by dune language."))
+
+(package
+ (name dune-private))

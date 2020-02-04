@@ -1,0 +1,6 @@
+(library
+ (public_name dune-private.cli)
+ (name dune_cli)
+ (libraries memo dune_lang fiber stdune unix dune_cache_daemon dune_cache
+   dune cmdliner threads.posix build_info)
+ (preprocess future_syntax))

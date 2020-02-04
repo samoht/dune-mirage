@@ -1,9 +1,8 @@
 (executable
- (name main)
- (libraries memo dune_lang fiber stdune unix dune_cache_daemon dune_cache
-   dune cmdliner threads.posix build_info)
- (preprocess future_syntax)
- (bootstrap_info bootstrap-info))
+  (name main)
+  (modules main)
+  (bootstrap_info bootstrap-info)
+  (libraries dune-private.cli))
 
 (rule
  (action

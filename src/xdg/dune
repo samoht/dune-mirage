@@ -1,2 +1,3 @@
 (library
- (name xdg))
+ (name xdg)
+ (public_name dune-private.xdg))

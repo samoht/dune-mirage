@@ -1,5 +1,6 @@
 (library
  (name jbuild_support)
+ (public_name dune-private.jbuild-support)
  (libraries stdune dune_lang)
  (synopsis "Internal Dune library, do not use!")
  (preprocess future_syntax))

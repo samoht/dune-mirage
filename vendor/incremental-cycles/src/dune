@@ -1,2 +1,3 @@
 (library
-  (name incremental_cycles))
+  (name incremental_cycles)
+  (public_name dune-private.incremental_cycles))
